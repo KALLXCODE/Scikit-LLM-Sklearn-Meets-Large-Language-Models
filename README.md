@@ -6,31 +6,13 @@
 
 Seamlessly integrate powerful language models like ChatGPT into scikit-learn for enhanced text analysis tasks.
 
-## Installation 💾 
+
 
 ```bash 
 pip install scikit-llm
 ```
 
-## Support us 🤝
 
-You can support the project in the following ways:
-
-- ⭐ Star Scikit-LLM on GitHub (click the star button in the top right corner)
-- 🐦 Check out our related project - [Falcon AutoML](https://github.com/OKUA1/falcon)
-- 💡 Provide your feedback or propose ideas in the [issues](https://github.com/iryna-kondr/scikit-llm/issues) section
-- 🔗 Post about Scikit-LLM on LinkedIn or other platforms
-
-## Documentation 📚
-
-### Configuring OpenAI API Key
-At the moment Scikit-LLM is only compatible with some of the OpenAI models. Hence, a user-provided OpenAI API key is required.
-
-```python
-from skllm.config import SKLLMConfig
-SKLLMConfig.set_openai_key("<YOUR_KEY>")
-SKLLMConfig.set_openai_org("<YOUR_ORGANISATION>")
-```
 
 ### Zero-Shot Text Classification
 
@@ -143,14 +125,3 @@ clf.fit(X_train, y_train_encoded)
 yh = clf.predict(X_test)
 ```
 
-## Roadmap 🧭
-
-- [x] Zero-Shot Classification with OpenAI GPT 3/4
-    - [x] Multiclass classification
-    - [x] Multi-label classification
-    - [x] ChatGPT models
-    - [ ] InstructGPT models
-- [ ] Few shot classifier
-- [x] GPT Vectorizer
-- [ ] GPT Fine-tuning (optional)
-- [ ] Integration of other LLMs
