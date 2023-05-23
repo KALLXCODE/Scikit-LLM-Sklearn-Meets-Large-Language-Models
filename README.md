@@ -2,7 +2,7 @@
   <img src="https://github.com/iryna-kondr/scikit-llm/blob/main/logo.png?raw=true" max-height="200"/>
 </p>
 
-# Scikit-LLM: Sklearn Meets Large Language Models
+# Scikit-LLM: Sklearn Meets Large Language Models.
 
 Seamlessly integrate powerful language models like ChatGPT into scikit-learn for enhanced text analysis tasks.
 
