@@ -4,7 +4,7 @@
 
 # Scikit-LLM: Sklearn Meets Large Language Models.
 
-Seamlessly integrate powerful language models like ChatGPT into scikit-learn for enhanced text analysis tasks.
+Seamlessly integrate powerful language models like ChatGPT into scikit-learn for enhanced text analysis tasks
 
 
 
